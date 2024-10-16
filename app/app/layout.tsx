@@ -1,3 +1,4 @@
+import { Header } from "./components/Header";
 import "./globals.css"
 import { Hachi_Maru_Pop, Noto_Sans_JP } from "next/font/google";
 
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang='ja'>
       <body className={`${HachiMaruPopFont.variable} ${notoSansJP.variable}`}>
+      <Header />
         {children}
       </body>
     </html>
