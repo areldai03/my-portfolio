@@ -8,5 +8,6 @@ const nextConfig = {
       return config;
     },
     output: "export",
+    basePath: '/my-portfolio',
   };
 export default nextConfig;
