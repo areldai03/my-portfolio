@@ -6,7 +6,7 @@ services:
       - "3000:3000"
     volumes:
       - type: bind
-        source: ./app
+        source: ./docs
         target: /app
       - type: volume
         source: node_modules
