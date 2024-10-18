@@ -28,7 +28,7 @@ export const Works = () => {
         {
             title: "work6",
             description: "wip",
-            image: "images/doradog.png"
+            image: "images/doggy.png"
         },
     ];
 
