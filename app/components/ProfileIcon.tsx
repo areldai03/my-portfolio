@@ -1,9 +1,7 @@
-import Image from "next/image";
-
 const ProfileIcon = () => {
     return (
         <div className="flex flex-col items-center p-4 bg-gray-100">
-            <Image 
+            <img 
                 src="/images/doggy.png"
                 alt="Picture of the author"
                 width={500}
