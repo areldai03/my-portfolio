@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={`${HachiMaruPopFont.variable} ${notoSansJP.variable}`}>
       <Header />
       <title>ポートフォリオ</title>
-      <main className="pt-16 md:pt-20 lg:pt-24 xl:pt-32">
+      <main className="pt-16 md:pt-20 lg:pt-24 xl:pt-32 max-w-screen-2xl mx-auto bg-gray-100">
         {children}
       </main>
       </body>
