@@ -4,12 +4,12 @@ const ProfileContent = () => {
     return (
         <div id="about" className="flex-1 p-4 md:p-8 bg-white rounded-lg shadow-lg border border-gray-200">
             <h1 className="text-2xl font-bold mb-4">あばうとみ</h1>
-            <p className="mb-4 text-gray-700">愛媛大学B4の前川大輔です。テキスト生成に興味があります。<br />
-                これからNLP関連の手法を実装していくます。</p>
+            <p className="mb-4 text-gray-700">テキスト生成に興味があります。<br />
+                これからNLP関連の手法を実装していくます。実装したら下のドット絵がNLPに変わっていきます。</p>
 
             <h2 className="text-xl font-semibold mb-2">研究業績</h2>
             <ul className="list-disc list-inside mb-4 text-gray-700">
-                <li>前川大輔, 梶原智之, 二宮崇.
+                <li>
                     大規模言語モデルによる日本語テキスト平易化のためのパラレルコーパスフィルタリング
                     NLP若手の会第19回シンポジウム (YANS), August 2024.</li>
                 {/* その他の研究項目 */}
