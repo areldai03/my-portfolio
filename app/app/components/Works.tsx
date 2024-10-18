@@ -44,7 +44,7 @@ export const Works = () => {
                         <img 
                             src={work.image} 
                             alt={work.title} 
-                            className="w-full h-auto object-cover"
+                            className="w-full object-contain object-cover"
                         />
                         <div className="p-4">
                             <h3 className="text-xl font-semibold mb-2">{work.title}</h3>
