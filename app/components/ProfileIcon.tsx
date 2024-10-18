@@ -4,7 +4,7 @@ const ProfileIcon = () => {
     return (
         <div className="flex flex-col items-center p-4 bg-gray-100">
             <Image 
-                src="/images/doge.png"
+                src="/images/doggy.png"
                 alt="Picture of the author"
                 width={500}
                 height={500}
