@@ -2,7 +2,7 @@ const ProfileIcon = () => {
     return (
         <div className="flex flex-col items-center p-4 bg-gray-100">
             <img 
-                src="/images/doggy.png"
+                src="https://areldai03.github.io/my-portfolio/images/doggy.png"
                 alt="Picture of the author"
                 className="rounded-full w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 object-cover transform transition duration-300 hover:scale-105 hover:shadow-2xl" 
             />
