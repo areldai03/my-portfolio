@@ -19,5 +19,6 @@
 
 - **Next.js**: [MIT License](https://github.com/vercel/next.js/blob/canary/license.md)
 - **TypeScript**: [Apache License 2.0](https://github.com/microsoft/TypeScript/blob/main/LICENSE.txt)
-- **Tailwind CSS**: [MIT License](https://github.com/tailwindlabs/tailwindcss/blob/master/LICENSE)
+- **Tailwind CSS**: [MIT License](https://github.com/tailwindlabs/tailwindcss/blob/master/LICENSE)  
+
 © 2024 areldai03
