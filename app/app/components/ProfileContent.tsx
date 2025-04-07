@@ -4,7 +4,7 @@ const ProfileContent = () => {
     return (
         <div id="about" className="flex-1 p-4 md:p-8 bg-white rounded-lg shadow-lg border border-gray-200">
             <h1 className="text-2xl font-bold mb-4">あばうとみ</h1>
-            <p className="mb-4 text-gray-700">愛媛大学B4の前川大輔です。テキスト生成に興味があります。<br />
+            <p className="mb-4 text-gray-700">愛媛大学大学院M1の前川大輔です。テキスト生成に興味があります。<br />
                 これからNLP関連の手法を実装していくます。</p>
 
             <h2 className="text-xl font-semibold mb-2">研究業績</h2>
