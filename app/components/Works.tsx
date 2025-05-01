@@ -2,15 +2,15 @@ export const Works = () => {
     const works = [
         {
             title: "難易度推定モデル",
-            description: "語彙長、頻度、埋め込みベースの難易度推定APIを実装しました。",
+            description: "語彙長、頻度、埋め込みベースの難易度推定API",
             image: "images/lcp-api.png",
             url: "https://deepwiki.com/areldai03/lcp-api",
         },
         {
-            title: "work2",
-            description: "wip",
-            image: "images/halldog.png",
-            url: "#",
+            title: "コマンド生成君",
+            description: "自然文からUnixコマンドを生成する、RAGローカルコマンド補助CLIツール [wip]",
+            image: "images/command-genie.png",
+            url: "https://github.com/areldai03/CommandGenie",
         },
         {
             title: "work3",
