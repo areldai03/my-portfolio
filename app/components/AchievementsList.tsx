@@ -1,5 +1,5 @@
 import React from 'react';
-import { Achievement, achievements } from '../data/achievements';
+import { achievements } from '../data/achievements';
 
 export const AchievementsList = () => {
     
