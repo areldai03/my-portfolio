@@ -6,7 +6,15 @@ export const Header = () => {
                     Daisuke Maekawa
                 </h1>
                 <p className="text-[var(--sub-text)]">
-                    Affiliation: NLP Lab, Ehime University
+                    Affiliation: 
+                    <a 
+                        href="https://sites.google.com/view/ehime-nlp/" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="text-blue-600 hover:underline"
+                    >
+                        NLP Lab, Ehime University
+                    </a>
                 </p>
             </div>
             
