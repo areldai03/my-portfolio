@@ -1,13 +1,12 @@
 const ProfileIcon = () => {
     return (
-        <div className="flex flex-col items-center p-4 bg-gray-100">
+        <div className="relative group">
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 blur-sm"></div>
             <img 
                 src="https://areldai03.github.io/my-portfolio/images/doggy.png"
-                alt="Picture of the author"
-                className="rounded-full w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 object-cover transform transition duration-300 hover:scale-105 hover:shadow-2xl" 
+                alt="Daisuke Maekawa"
+                className="relative w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-white dark:border-gray-900 shadow-sm" 
             />
-            <h2 className="mt-4 text-xl md:text-2xl font-semibold">areldai03</h2>
-            <p className="text-gray-600 text-sm md:text-base">M1 Ehime Univ</p>
         </div>
     );
 };

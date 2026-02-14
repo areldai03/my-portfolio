@@ -20,9 +20,9 @@ export default function RootLayout({
   return (
     <html lang='ja'>
       <body className={`${HachiMaruPopFont.variable} ${notoSansJP.variable}`}>
-      <Header />
+      {/* <Header /> */}
       <title>ポートフォリオ</title>
-      <main className="pt-16 md:pt-20 lg:pt-24 xl:pt-32 max-w-screen-2xl mx-auto bg-gray-100">
+      <main className="max-w-screen-2xl mx-auto">
         {children}
       </main>
       </body>

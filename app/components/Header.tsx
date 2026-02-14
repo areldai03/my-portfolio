@@ -1,18 +1,19 @@
-"use client"
-import {Link as Scroll} from "react-scroll"
-
-export function Header() {
+export const Header = () => {
     return (
-        <header className="fixed top-0 left-0 w-full bg-gray-900 text-white py-6 shadow-lg font-hachimaru z-50">
-            <div className="container mx-auto flex justify-between items-center px-4">
-                <h1 className="text-lg font-bold tracking-tight hover:text-blue-400 transition duration-300 xl:text-2xl 2xl:text-3xl 3xl:text-3xl">
-                    ぼくのぽーとふぉりお
+        <header className="sticky top-0 z-50 bg-[var(--background)]/90 backdrop-blur-sm flex flex-col md:flex-row justify-between items-start md:items-center mb-8 border-b border-[var(--border)] py-4 transition-all">
+            <div>
+                <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
+                    Daisuke Maekawa
                 </h1>
-                <nav className="space-x-4">
-                    <Scroll to="about" smooth={true} duration={600} offset={-70} className="text-sm font-medium hover:text-blue-400 transition duration-300 base:text-base lg:text-lg xl:text-xl">あばうとみ</Scroll>
-                    <Scroll to="works" smooth={true} duration={600} offset={-70} className="text-sm font-medium hover:text-blue-400 transition duration-300 base:text-base lg:text-lg xl:text-xl">わーくす</Scroll>
-                </nav>
+                <p className="text-[var(--sub-text)]">
+                    Affiliation: NLP Lab, Ehime University
+                </p>
             </div>
+            
+            <nav className="mt-4 md:mt-0 flex gap-6 text-sm font-medium">
+                <a href="#about" className="text-gray-600 hover:text-black dark:text-gray-400 dark:hover:text-white transition-colors">About</a>
+                <a href="#publications" className="text-gray-600 hover:text-black dark:text-gray-400 dark:hover:text-white transition-colors">Publications</a>
+            </nav>
         </header>
-    )
-}
+    );
+};

@@ -2,7 +2,7 @@ FROM node:22-bookworm-slim
 
 WORKDIR /app
 
-COPY /docs/package*.json ./
+COPY package*.json ./
 RUN npm install
-COPY docs .
+COPY . .
 
